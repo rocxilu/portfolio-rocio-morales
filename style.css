@@ -1,0 +1,253 @@
+@font-face{ font-family: "Brigends"; src: url(./assets/Brigends\ Expanded.otf) format("truetype"); }
+@font-face{ font-family: "SixCaps-Regular"; src: url(./assets/SixCaps-Regular.ttf) format("truetype"); }
+@font-face{ font-family: "OpenSans-VariableFont"; src: url(./assets/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype"); }
+
+body{
+    background-color: #fffcec;
+}
+
+h2{
+    font-family: "Brigends";
+    font-size: 70px;
+    margin-top:-25px ;
+    color: #3D3D3D;
+}
+h3{
+    font-family: "Brigends";
+    font-size: 70px;
+    color:#3D3D3D;
+}
+h1{
+    font-family: "SixCaps-Regular";
+    font-size: 90px;
+    color: #B9CDEC;
+}
+@media (max-width: 900px) {
+    h3 {
+        font-size:30px;
+    }
+    h2{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .content-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/Recurso7.png);
+        background-repeat: no-repeat;
+        height: auto;
+        padding: 4rem;
+    }
+}
+.nav-link:focus, .nav-link:hover {
+    color:#C58CD6;
+    font-weight: bolder;
+
+    }
+
+.content-main{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 80px;
+    background-image: url(./assets/Recurso7.png);
+    background-repeat: no-repeat;
+    
+    height: 23rem;
+    padding-top: 150px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.ms-auto{
+    margin-right: 25px;
+}
+.conteiner-presentation{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+    background-image: url(./assets/Recurso\ 8.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 25rem;
+}
+.col{
+    margin-top: 100px;
+}
+.tittle{
+    font-family: "SixCaps-Regular";
+    font-size: 90px;
+    color: #C58CD6;
+}
+.sub-tittle{
+    font-family: "SixCaps-Regular";
+    font-size: 90px;
+    color: #B9CDEC;
+}
+p{
+ font-family: "OpenSans-VariableFont";
+}
+.container-columns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+.conteiner-presentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+@media (max-width: 900px) {
+    .container-columns{
+        display: flex;
+        
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-background{
+        background-image: url(./assets/Recurso\ 8.png);
+    background-repeat: no-repeat;
+    width: auto;
+    padding-top: 80px;
+}
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+   
+}
+.container-columns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+.column-container{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.image {
+    flex-basis: 100%; /* Ajustar según la cantidad de imágenes */
+    margin-bottom: 20px;
+}
+
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-subtittle{
+    font-family: "SixCaps-Regular";
+    font-size: 40px;
+    color: #B9CDEC;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+video {
+    width: 30%; /* Ajusta según tus necesidades */
+}
+@media (max-width: 900px) {
+    .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 150px;
+    }video {
+        width: 130%; /* Ajusta según tus necesidades */
+    }
+}
+
+.btn-outline-primary{
+
+    border-color: #C58CD6;
+    color: #3D3D3D;
+    
+}
+.logo_icon{
+    width: 45px;
+    padding-right: 10px;
+}
+.logo_icon_wsp{
+    width: 35px;
+    padding-right: 10px;
+}
+.logo_img{
+    width: 30px;
+    padding-right: 10px;
+}
+.btn:hover{
+    color:#fffcec;
+    background-color: #C58CD6;
+    border-color: #C58CD6;
+}
+
+.despedida{
+    font-family: "Brigends";
+    font-size: 20px;
+    color:#3D3D3D;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #3D3D3D;
+
+    cursor: pointer;
+}
+.button-link:hover{
+    color:#C58CD6;
+    font-weight: bolder;
+}
+
+footer {
+    background-color:  #B9CDEC;
+    color: #3D3D3D;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
