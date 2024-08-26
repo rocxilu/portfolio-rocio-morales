@@ -96,7 +96,7 @@ h1{
     color: #B9CDEC;
 }
 p{
- font-family: "OpenSans-VariableFont";
+font-family: "OpenSans-VariableFont";
 }
 .container-columns{
     display: flex;
@@ -135,7 +135,7 @@ p{
     flex: 1;
     padding: 20px;
     margin: 5px;
-   
+
 }
 .container-columns{
     display: flex;
