@@ -96,7 +96,7 @@ h1{
     color: #B9CDEC;
 }
 p{
-font-family: "OpenSans-VariableFont";
+ font-family: "OpenSans-VariableFont";
 }
 .container-columns{
     display: flex;
@@ -135,7 +135,7 @@ font-family: "OpenSans-VariableFont";
     flex: 1;
     padding: 20px;
     margin: 5px;
-
+   
 }
 .container-columns{
     display: flex;
@@ -191,18 +191,25 @@ font-family: "OpenSans-VariableFont";
 video {
     width: 30%; /* Ajusta según tus necesidades */
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .video-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 150px;
+        padding: 80px 150px;
+
     }video {
         width: 130%; /* Ajusta según tus necesidades */
     }
 }
-
+.video_1
+{
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 150px;
+        padding-top: 50%;
+}
 .btn-outline-primary{
 
     border-color: #C58CD6;
